@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    min-height: 100vh;
+    margin: 0;
+    background-color: #92ada8; 
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 50px; 
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    margin-top: 20px; 
+  }
+  .one {
+    color: black; /* ตั้งสีเป็นดำ */
+    text-align: center; /* ตำแหน่งกลาง */
+  }
+
+  .text {
+    color: black; /* ตั้งสีเป็นดำ */
+    text-align: center; /* ตำแหน่งกลาง */
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+  
+  
+  .user-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .user-list li:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  .post-info {
+    margin-top: 20px;
+  }
+  
+  .post {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  header {
+    margin-top: 0;
+    color: #241f1f; 
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .post-info {
+    background-color: white; /* สีพื้นหลังเป็นสีขาว */
+    padding: 10px; /* เพิ่มช่องว่างรอบขอบ */
+  }
+  .post {
+    border: 1px solid black; /* เพิ่มเส้นขอบดำ */
+    padding: 10px; /* เพิ่มช่องว่างรอบข้อความ */
+    margin-bottom: 10px; /* เพิ่มช่องว่างด้านล่าง */
+  }
+  
